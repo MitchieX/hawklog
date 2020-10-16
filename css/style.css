@@ -543,6 +543,14 @@ ul {
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+@media (max-width: 991px) {
+
+  .ajust-logo{
+    width: 70%;
+  }
+}
+
+
 .home_banner_area {
   background: url(../img/banner/home.jpg) no-repeat center top;
   background-size: cover;
