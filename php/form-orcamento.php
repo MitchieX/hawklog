@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "nathaliamornelas@gmail.com";
+    $email_to = "contato@hawklog.com.br";
     $email_subject = "Contato pelo Site";
  
     function died($error) {
@@ -15,16 +15,16 @@ if(isset($_POST['email'])) {
     }
  
  
-    // validation expected data exists
+     // validation expected data exists
     if(!isset($_POST['nome']) ||
         !isset($_POST['empresa']) ||
         !isset($_POST['email']) ||
-        !isset($_POST['carga'])
-        !isset($_POST['pais'])
-        !isset($_POST['destino'])
-        !isset($_POST['qtd'])
-        !isset($_POST['peso'])
-        !isset($_POST['tamanho'])
+        !isset($_POST['carga']) ||
+        !isset($_POST['pais']) ||
+        !isset($_POST['destino']) ||
+        !isset($_POST['qtd']) ||
+        !isset($_POST['peso']) ||
+        !isset($_POST['tamanho']) ||
         !isset($_POST['modal'])) {
         died('Desculpe, mas encontramos erros no preenchimento do formulário.');       
     }
