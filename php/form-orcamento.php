@@ -2,8 +2,8 @@
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "contato@hawklog.com.br";
-    $email_subject = "Contato pelo Site";
+    $email_to = "nathaliamornelas@gmail.com";
+    $email_subject = "Solicitação de Orçamento";
  
     function died($error) {
         // your error code can go here
@@ -15,7 +15,7 @@ if(isset($_POST['email'])) {
     }
  
  
-     // validation expected data exists
+    // validation expected data exists
     if(!isset($_POST['nome']) ||
         !isset($_POST['empresa']) ||
         !isset($_POST['email']) ||
